@@ -1,6 +1,6 @@
 # main text of home
 name: Jann Goschenhofer
-bio: Economist XXX turned Statistican turned Machine Learning Engineer
+bio: Economist YYY turned Statistican turned Machine Learning Engineer
 
 # twitter summary info
 description: Personal blog
@@ -8,7 +8,7 @@ description: Personal blog
 # if it's an external image, update below for true
 # better with square images
 external-image: false
-picture: assets/images/profile.jpg
+picture: assets/images/janngoschenhofer.jpg
 
 # If you want to include your resume, set to true
 # and specify source (external or local).
@@ -58,7 +58,7 @@ authors:
         name: Jann Goschenhofer
         bio: An Economist turned Statistican turned Machine Learning Engineer
         external-image: false
-        picture: assets/images/profile.jpg
+        picture: assets/images/janngoschenhofer.jpg
         #twitter: johndoe
 
 # do you want a larger site? change the option below
