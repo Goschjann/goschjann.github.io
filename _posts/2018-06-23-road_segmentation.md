@@ -1,5 +1,5 @@
 ---
-title: ":hammer: road segmentation"
+title: ":hammer: | road segmentation"
 layout: post
 date: 2018-01-01 09:30
 tag: jekyll
