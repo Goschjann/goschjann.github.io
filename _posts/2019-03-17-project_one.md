@@ -1,0 +1,19 @@
+---
+title: ":mega: talk @ dadada munich 2019"
+layout: post
+date: 2019-03-17 22:00
+tag: jekyll
+image: /assets/images/dadada.jpg
+headerImage: true
+projects: true
+hidden: false # don't count this post in blog pagination
+description: "second talk at munich dategeeks"
+category: project
+author: goschjann
+externalLink: false
+---
+
+I had the chance to talk about my Master's thesis at the Datageeks Data Day (DADADA) 2019 in Munich. Awesome event, awesome community and awesome discussions on quantification of uncertainty in machine learning. 
+
+* read [the slides](https://google.com)
+* watch [the talk](https://www.web.de)
