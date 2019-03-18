@@ -2,7 +2,7 @@
 title: ":hammer: road segmentation"
 layout: post
 date: 2018-01-01 09:30
-tag: jekyll
+tag: segmentation, u-net, road, satellite, image
 image: https://raw.githubusercontent.com/Goschjann/road_segmentation_project/master/figures/niceresult27.png
 headerImage: true
 projects: true
