@@ -10,8 +10,8 @@ layout: page
 
 ### Work
 
-* 2018-2019: LMU Computational Statistics working group | ConnectedLife  
-* 2016-2017: Munich Re | Freelance
+* 2018-2019: LMU Computational Statistics working group / ConnectedLife  
+* 2016-2017: Munich Re / Freelance
 * 2015-2016: SAP  
 
 ### Skills
