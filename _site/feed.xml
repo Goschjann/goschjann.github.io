@@ -1,4 +1,64 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-05-02T20:30:52+02:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Jann Goschenhofer</title><subtitle>intro jann goschenhofer</subtitle><entry><title type="html">:mega: talk @ dadada munich 2019</title><link href="http://localhost:4000/dadada2019/" rel="alternate" type="text/html" title=":mega: talk @ dadada munich 2019" /><published>2019-03-17T22:00:00+01:00</published><updated>2019-03-17T22:00:00+01:00</updated><id>http://localhost:4000/dadada2019</id><content type="html" xml:base="http://localhost:4000/dadada2019/">&lt;p&gt;I had the chance to talk about my Master’s thesis at the Datageeks Data Day (DADADA) 2019 in Munich. Awesome event, awesome community and awesome discussions on quantification of uncertainty in machine learning.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-05-05T18:33:28+02:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Jann Goschenhofer</title><subtitle>intro jann goschenhofer</subtitle><entry><title type="html">:hammer: dev setup</title><link href="http://localhost:4000/setup/" rel="alternate" type="text/html" title=":hammer: dev setup" /><published>2019-05-04T22:00:00+02:00</published><updated>2019-05-04T22:00:00+02:00</updated><id>http://localhost:4000/setup</id><content type="html" xml:base="http://localhost:4000/setup/">&lt;p&gt;I just recently had to set up my new macbook and as some people asked me about my data science setup for R/ python-scripting, package and app development and working with remote serves, I decided to give a short overview within this post. This setup allows me to have full control over my projects, work with different languages in the same interface and seaminglessly switch to any cloud computing service that allows command line acces via SSH.&lt;/p&gt;
+
+&lt;p&gt;Basically, I use sublimetext3 as an editor and iterm2 for code execution locally as well as remotely. In the following, I will cover those basic issues:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;sublimetext 3
+    &lt;ol&gt;
+      &lt;li&gt;sendcode for code execution&lt;/li&gt;
+      &lt;li&gt;different terminals (macOS, ubunut, windows)&lt;/li&gt;
+      &lt;li&gt;docstrings and code completion via anaconda package&lt;/li&gt;
+      &lt;li&gt;r-box for R&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;setup miniconda for virtual environments&lt;/li&gt;
+  &lt;li&gt;work and sync on any remote server (SimpleSync)&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;sublimetext3&quot;&gt;sublimetext3&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;download and install sublime text 3 &lt;a href=&quot;https://www.sublimetext.com/3&quot;&gt;from here&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;get terminal:
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.iterm2.com/&quot;&gt;iterm2&lt;/a&gt; for mac&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://cmder.net&quot;&gt;cmder&lt;/a&gt; for windows&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;install sublime package &lt;a href=&quot;https://github.com/randy3k/SendCode&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;sendCode&lt;/code&gt;&lt;/a&gt; to execute line-by-line in your terminal via convenient key bindings:
+    &lt;ul&gt;
+      &lt;li&gt;enter the sublime package manager: &lt;code class=&quot;highlighter-rouge&quot;&gt;cmd + shift + P&lt;/code&gt;, type &lt;code class=&quot;highlighter-rouge&quot;&gt;Control packages:&lt;/code&gt; and choose &lt;code class=&quot;highlighter-rouge&quot;&gt;install packages&lt;/code&gt;&lt;/li&gt;
+      &lt;li&gt;enter &lt;code class=&quot;highlighter-rouge&quot;&gt;SendCode&lt;/code&gt; and press &lt;code class=&quot;highlighter-rouge&quot;&gt;enter&lt;/code&gt; to install&lt;/li&gt;
+      &lt;li&gt;check the SendCode settings and enter your prefered terminal for each language (e.g. &lt;code class=&quot;highlighter-rouge&quot;&gt;cmder&lt;/code&gt; for windows, &lt;code class=&quot;highlighter-rouge&quot;&gt;iterm&lt;/code&gt; for macOS): &lt;code class=&quot;highlighter-rouge&quot;&gt;Preferences&lt;/code&gt; » &lt;code class=&quot;highlighter-rouge&quot;&gt;Package Settings&lt;/code&gt; » &lt;code class=&quot;highlighter-rouge&quot;&gt;SendCode&lt;/code&gt; » &lt;code class=&quot;highlighter-rouge&quot;&gt;Settings&lt;/code&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;for windows only&lt;/strong&gt;: uncomment and enter the line &lt;code class=&quot;highlighter-rouge&quot;&gt;conemuc: &amp;lt;path to cmder folder&amp;gt;\\vendor\\conemu-maximus5\\ConEmu\\ConEmuC.exe&lt;/code&gt; to show SendCode where to send the code. Should finally look like this: &lt;img src=&quot;/assets/images/cmder.jpg&quot; alt=&quot;cmder issues windoof&quot; /&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;install sublime package &lt;a href=&quot;https://packagecontrol.io/packages/Anaconda&quot;&gt;Anaconda&lt;/a&gt; for python highlighting and docstrings&lt;/li&gt;
+  &lt;li&gt;install sublime package &lt;a href=&quot;https://packagecontrol.io/packages/R-Box&quot;&gt;R-Box&lt;/a&gt; for R highlighting and docstrings&lt;/li&gt;
+  &lt;li&gt;general: define key-bindings aka shortcuts &lt;code class=&quot;highlighter-rouge&quot;&gt;Preferences&lt;/code&gt; » &lt;code class=&quot;highlighter-rouge&quot;&gt;Key Bindings&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;virtual-environments&quot;&gt;virtual environments&lt;/h2&gt;
+
+&lt;p&gt;I use virtual environments for each project to reduce the hustle with different package dependencies etc.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;install &lt;a href=&quot;https://docs.conda.io/en/latest/miniconda.html&quot;&gt;miniconda&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;create virtual environment for your project: &lt;code class=&quot;highlighter-rouge&quot;&gt;conda create -n &amp;lt;your env name&amp;gt; python=&amp;lt;python version, e.g. 3.7&amp;gt; anaconda&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;activate it: &lt;code class=&quot;highlighter-rouge&quot;&gt;source activate &amp;lt;your env name&amp;gt;&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;deactivate it: &lt;code class=&quot;highlighter-rouge&quot;&gt;source deactivate&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;remote-work-via-ssh-and-code-sync&quot;&gt;remote work via ssh and code sync&lt;/h2&gt;
+
+&lt;p&gt;wip&lt;/p&gt;
+
+&lt;h2 id=&quot;additional-material&quot;&gt;additional material&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;plot inside your terminal with the awesome &lt;a href=&quot;https://github.com/daleroberts/itermplot&quot;&gt;itermplot extension&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;use openSSH within a MNet network (which does not provide IPv4) via &lt;a href=&quot;https://forum.m-net.de/viewtopic.php?f=20&amp;amp;t=8883#p78454&quot;&gt;feste-ip.de&lt;/a&gt; (GER only)&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>goschjann</name></author><category term="project" /><category term="setup, dev, hacking, remote" /><summary type="html">I just recently had to set up my new macbook and as some people asked me about my data science setup for R/ python-scripting, package and app development and working with remote serves, I decided to give a short overview within this post. This setup allows me to have full control over my projects, work with different languages in the same interface and seaminglessly switch to any cloud computing service that allows command line acces via SSH.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/setup.jpg" /></entry><entry><title type="html">:mega: talk @ dadada munich 2019</title><link href="http://localhost:4000/dadada2019/" rel="alternate" type="text/html" title=":mega: talk @ dadada munich 2019" /><published>2019-03-17T22:00:00+01:00</published><updated>2019-03-17T22:00:00+01:00</updated><id>http://localhost:4000/dadada2019</id><content type="html" xml:base="http://localhost:4000/dadada2019/">&lt;p&gt;I had the chance to talk about my Master’s thesis at the Datageeks Data Day (DADADA) 2019 in Munich. Awesome event, awesome community and awesome discussions on quantification of uncertainty in machine learning.&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;read &lt;a href=&quot;https://goschjann.github.io/ddd_talk/&quot;&gt;the slides&lt;/a&gt; (use fullscreen mode for the optimal experience)&lt;/li&gt;
