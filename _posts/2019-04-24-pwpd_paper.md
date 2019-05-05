@@ -1,7 +1,7 @@
 ---
 title: ":page_facing_up: paper on parkinson's and dl"
 layout: post
-date: 2019-05-04 22:00
+date: 2019-04-24 22:00
 tag: parkinsons, thesis, sensor, wearable, tsc, dl
 image: /assets/images/abstract.png
 headerImage: true
