@@ -10,7 +10,7 @@ Inhaltlich verantwortlich und vertretungsberechtigt:
 Jann Goschenhofer  
 Kolosseumstr. 3  
 80469 Muenchen  
-info_jg[aet]posteo.de  
+contact[aet]janngoschenhofer.com  
 
 # Datenschutz
 
