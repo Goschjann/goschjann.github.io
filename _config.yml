@@ -38,7 +38,7 @@ disqus:
 
 # if you don't have any of social below, comment the line
 #facebook: myfacebook
-#twitter: mytwitter
+twitter: mytwitter
 # google: mygoogle
 # instagram: myinstagram
 # pinterest: mypinterest
@@ -59,7 +59,7 @@ email: contact@janngoschenhofer.com
 authors:
     janngoschenhofer:
         name: Jann Goschenhofer
-        bio: An Economist turned Statistican turned Machine Learning Engineer
+        bio: Economist turned Statistican turned Machine Learning Researcher
         external-image: false
         picture: assets/images/janngoschenhofer.jpg
         #twitter: johndoe
