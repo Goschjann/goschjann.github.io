@@ -2,6 +2,12 @@
 title: About
 layout: page
 ---
-![Profile Image]({{ site.url }}/{{ site.picture }})
+<!-- ![Profile Image]({{ site.url }}/{{ site.picture }}) -->
 
-Jann started his journey as a quant. economist in Heidelberg. Thrilled by its manifold opportunities, he then entered the data science train via his master's in stats at LMU Munich. He applied various stats-related techniques (glms, survival analysis, deep learning, traditional machine learning) on various data types (sensor, text, imagery, tabular) in various settings (industry, research, startup) and is still excited by the multitude of use cases for sophisticated data science solutions. Since spring 2019 he is a PhD student within Bernd Bischl's [Computational Statistics Group](http://www.compstat.statistik.uni-muenchen.de/) at LMU, applying his skills within the [Fraunhofer IIS ADA Lovelace Center](https://www.scs.fraunhofer.de/de/forschung/ada-center.html). Jann's research is centered around the problem of **learning from few labeled data** with applications to functional/ time series data. 
+I am a third-year PhD student within Prof. Bernd Bischl's [Statistical Learning and Data Science Group](http://www.compstat.statistik.uni-muenchen.de/) at LMU Munich. Currently, I am a visiting researcher within Prof. Zsolt Kira's [RIPL Lab](https://www.cc.gatech.edu/~zk15/) at Georgia Tech working on the use of pairwise constraints in weakly supervised learning settings. 
+
+My research is centered around 'Learning from Limited Labeled Data' aka Machine Learning Settings with a low level of supervision/ oracle annotations. It is connected to Manifold Learning, Semi-supervised Learning, Self-supervised Learning, PU Learning and Constrained Clustering.
+
+Next to my LMU affiliation, I am a researcher within the [Fraunhofer IIS ADA Lovelace Center](https://www.scs.fraunhofer.de/de/forschung/ada-center.html), a joint AI initiative of the Fraunhofer IIS, LMU and FAU. Thereby we translate AI into industrial practice and overcome the hurdles of applying latest semi-supervised learning methods to settings beyond ImageNet with our industrial partners. 
+
+During my master's I was involved in a project using Machine Learning for Parkinson's Disease Monitoring. Despite working on other applications now professionally, I kept my interest in the ML4Healthcare space and take part in [competitions](https://www.michaeljfox.org/news/mjff-and-sage-bionetworks-announce-winners-beat-pd-dream-challenge) and [research activities](https://www.medrxiv.org/content/10.1101/2021.10.20.21265298v1) in this area on a private note. 
