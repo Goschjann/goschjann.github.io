@@ -6,7 +6,7 @@ layout: page
 
 I am a third-year PhD student within Prof. Bernd Bischl's [Statistical Learning and Data Science Group](http://www.compstat.statistik.uni-muenchen.de/) at LMU Munich. Currently, I am a visiting researcher within Prof. Zsolt Kira's [RIPL Lab](https://www.cc.gatech.edu/~zk15/) at Georgia Tech working on the use of pairwise constraints in weakly supervised learning settings. 
 
-My research is centered around 'Learning from Limited Labeled Data' aka Machine Learning Settings with a low level of supervision/ oracle annotations. It is connected to Manifold Learning, Semi-supervised Learning, Self-supervised Learning, PU Learning and Constrained Clustering.
+My research is centered around 'Learning from Limited Labeled Data', aka Machine Learning settings with a low level of supervision/ oracle annotations. It is connected to Manifold Learning, Semi-supervised Learning, Self-supervised Learning, PU Learning and Constrained Clustering.
 
 Next to my LMU affiliation, I am a researcher within the [Fraunhofer IIS ADA Lovelace Center](https://www.scs.fraunhofer.de/de/forschung/ada-center.html), a joint AI initiative of the Fraunhofer IIS, LMU and FAU. Therein, we translate AI into industrial practice and overcome the hurdles of applying latest semi-supervised learning methods to settings beyond ImageNet with our industrial partners. 
 
